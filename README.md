@@ -1,5 +1,4 @@
-# Leadership screens
-Visualising RSS feeds on a screen
+# Visualising RSS feeds on a screen
 
 To-do:
 - [ ] Add 3 Screens
