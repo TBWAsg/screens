@@ -34,7 +34,7 @@ $feed->set_feed_url(array(
 $mumbrella = 'r/MumbrellaAsia/';
 $campaignasia = 'campaignasia.feedsportal.com';
 $marketingInteractive = 'marketing-interactive.com';
-$rightIntel = '//rightintel.com/files/images/';
+$rightIntel = '<img src="https://rightintel.com/';
 
 
 // Set a folder where the cache can reside.
