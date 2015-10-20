@@ -7,15 +7,15 @@ Built for HD TV resolution 1920x1080
 
 5 screens (2 unique designs) display up to 40 latest articles from the last 24 hours
 
-![Screen1](http://imgur.com/iCHOd3W)
+![Screen1](http://imgur.com/iCHOd3W "Screen1")
 
-![Screen2](http://imgur.com/TzrgAPT)
+![Screen2](http://imgur.com/TzrgAPT "Screen1")
 
 Overlays to show individual articles
 
-![overlay1](http://imgur.com/9lmpfZY)
+![overlay1](http://imgur.com/9lmpfZY "overlay1")
 
-![overlay2](http://imgur.com/RVMvrRa)
+![overlay2](http://imgur.com/RVMvrRa "overlay2")
 
 
 
