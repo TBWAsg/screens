@@ -1,6 +1,6 @@
 <?php
 // Get server login credentials
-require_once $_SERVER['DOCUMENT_ROOT'] . '/tbwa-leadership/dbconfig.php'; 
+require_once $_SERVER['DOCUMENT_ROOT'] . '/screens/dbconfig.php'; 
 
 // Server settings
 $con = mysql_connect($host, $username, $password);
