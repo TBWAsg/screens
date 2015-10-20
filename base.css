@@ -1,0 +1,340 @@
+/* HD TV resolution 1920x1080 */
+
+.container {
+    width: 1920px;
+    height: 520px; /* try switch to 540px */
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    background: yellow;
+    font-family: 'dinregular', 'Montserrat', sans-serif;
+    overflow:hidden; /* hide vertical and horizontal scroll bars */
+}
+
+/* custom TBWA themed font */
+@font-face {
+    font-family: 'dinregular';
+    src: url('fonts/din-alternate-webfont.eot');
+    src: url('fonts/din-alternate-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/din-alternate-webfont.woff2') format('woff2'), url('fonts/din-alternate-webfont.woff') format('woff'), url('fonts/din-alternate-webfont.ttf') format('truetype'), url('fonts/din-alternate-webfont.svg#dinregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    display:block; /* prevent images from being next to next */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* blocks */
+/* screen theme 1 - 8 blocks */
+
+.box1_outer {
+    width: 48.15%;
+    height: 96%;
+    float: left;
+    background: white;
+    border: 10px solid yellow;
+    color: black;
+}
+.box1_inner {
+    height: 96%;
+    border: 10px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box4_outer {
+    height: 94%;
+    width: 91%;
+    border: 10px solid black;
+}
+.box4_inner {
+    height: 96%;
+    border: 10px solid yellow;
+    background: black;
+    color: yellow;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box2_outer {
+    height: 45%;
+    width: 93%;
+    background: white;
+    border: 10px solid yellow;
+    color: black;
+}
+.box2_inner {
+    height: 91%;
+    border: 10px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box3_outer {
+    height: 45%;
+    width: 92%;
+    background: black;
+    border: 10px solid black;
+    color: yellow;
+}
+.box3_inner {
+    height: 91%;
+    border: 10px solid yellow;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box5_outer {
+    height: 48%;
+    width: 93%;
+    background: white;
+    border: 10px solid yellow;
+    color: black;
+}
+.box5_inner {
+    height: 92%;
+    border: 10px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box6_outer {
+    height: 48%;
+    width: 92%;
+    background: black;
+    border: 10px solid black;
+    color: yellow;
+}
+.box6_inner {
+    height: 91%;
+    border: 10px solid yellow;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box7_outer {
+    height: 100%;
+    width: 92.6%;
+    border: 10px solid yellow;
+}
+.box7_inner {
+    height: 98%;
+    border: 10px solid black;
+    background: white;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box8_outer {
+    height: 98%;
+    width: 47.85%;
+    float: left;
+    background: white;
+    border: 10px solid yellow;
+    color: black;
+}
+.box8_inner {
+    height: 98%;
+    border: 10px solid black;
+    background-color: black;
+    color: yellow;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* screen theme 2 - 8 blocks */
+
+.box9_outer {
+    height: 99%;
+    width: 97%;
+    border: 10px solid yellow;
+}
+.box9_inner {
+    height: 94%;
+    border: 10px solid black;
+    background: white;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box10_outer {
+    height: 97%;
+    width: 91%;
+    border: 10px solid black;
+}
+.box10_inner {
+    height: 96%;
+    border: 10px solid yellow;
+    background: black;
+    color: yellow;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box11_outer {
+    height: 94%;
+    width: 94%;
+    border: 10px solid black;
+}
+.box11_inner {
+    height: 96%;
+    border: 10px solid yellow;
+    background: black;
+    color: yellow;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box12_outer {
+    height: 48%;
+    width: 93%;
+    background: white;
+    border: 10px solid yellow;
+    color: black;
+}
+.box12_inner {
+    height: 92%;
+    border: 10px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box13_outer {
+    height: 48%;
+    width: 94%;
+    background: black;
+    border: 10px solid black;
+    color: yellow;
+}
+.box13_inner {
+    height: 91%;
+    border: 10px solid yellow;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box14_outer {
+    height: 48%;
+    width: 92%;
+    background: black;
+    border: 10px solid black;
+    color: yellow;
+}
+.box14_inner {
+    height: 91%;
+    border: 10px solid yellow;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box15_outer {
+    height: 46%;
+    width: 92%;
+    background: white;
+    border: 10px solid yellow;
+    color: black;
+}
+.box15_inner {
+    height: 92%;
+    border: 10px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.box16_outer {
+    height: 100%;
+    width: 48%;
+    float: left;
+    background: white;
+    border: 10px solid yellow;
+    color: black;
+}
+.box16_inner {
+    height: 96%;
+    border: 10px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* OVERLAYS */
+
+/* hiding the divs. important when less than 8 boxes of overlays per page. conditional in javascript */
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8 {
+    display: none;
+}
+
+/* opacity behind divs */
+.black_overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1001;
+    -moz-opacity: 0.3;
+    opacity: .30;
+    filter: alpha(opacity=80);
+}
+.display {
+    z-index: 1002;
+}
+
+
+.overlayTitle {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+.overlayDescription {
+    font-size: 20px;
+}
+
+
+.overlay1 {
+    background: white;
+    width: 80%;
+    height: 70%;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+}
+.overlay1outer {
+    height: 95%;
+    border: 20px solid yellow;
+    color: black;
+}
+.overlay1inner {
+    height: 96%;
+    border: 10px solid black;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+}
+.overlay1inner a {
+  color: black;
+}
+
+
+.overlay2 {
+    background: black;
+    width: 80%;
+    height: 70%;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+}
+.overlay2outer {
+    height: 95%;
+    border: 20px solid black;
+    color: yellow;
+}
+.overlay2inner {
+    height: 96%;
+    border: 10px solid yellow;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+}
+
+.overlay2inner a {
+  color: yellow;
+}
