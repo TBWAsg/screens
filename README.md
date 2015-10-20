@@ -1,10 +1,9 @@
-# Visualising RSS feeds on a screen
+# Features
+_ Display latest news articles from mUmBRELLA Asia, Marketing Interactive, Campaign Asia and Right Intel
+_ 5 screens (2 unique designs) display up to 40 latest articles
 
-To-do:
-- [ ] Add 3 Screens
-- [ ] Loop articles within the last 24 hours
-- [ ] Cron delete articles older than 24 hours
-- [ ] Overlays for individual articles
+Instructions:
+- Change list of feeds [here](pullrss/index.php)
 
 Credits:
-- SimplePie, PHP feed parser
+- [SimplePie, PHP feed parser](simplepie.org)
