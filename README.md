@@ -1,10 +1,24 @@
 [demo](http://tbwa.weiwenng.com/)
 
 ## Features
-- Display RSS articles from a list of RSS feeds
-- 5 screens (2 unique designs) display up to 40 latest articles from the last 24 hours
-- Overlays to show individual articles
-- Built for HD TV resolution 1920x1080
+Display RSS articles from a list of RSS feeds
+
+Built for HD TV resolution 1920x1080
+
+5 screens (2 unique designs) display up to 40 latest articles from the last 24 hours
+
+![Screen1](http://imgur.com/iCHOd3W)
+
+![Screen2](http://imgur.com/TzrgAPT)
+
+Overlays to show individual articles
+
+![overlay1](http://imgur.com/9lmpfZY)
+
+![overlay2](http://imgur.com/RVMvrRa)
+
+
+
 
 ## Instructions
 - Set up MySQL [table](table.sql)
