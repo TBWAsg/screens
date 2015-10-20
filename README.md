@@ -10,13 +10,11 @@
 - Set up MySQL [table](table.sql)
 - Set up [credentials](dbconfig.php)
 - Change [list of feeds](pull-rss/index.php)
-- Set up a cron job on server to pull RSS feed.
+- Set up a cron job on server to pull RSS feed:
 ```
-m      h       dom             mon     dow          command
-Minute Hour    Day of Month    Month   Day of week  <command>
-```
-```
-php -f /FILEPATH/screens/pull-rss/index.php
+Minute Hour    Day of Month    Month   Day of week                    <command>
+0       *          *             *         *            php -f /FILEPATH/screens/pull-rss/index.php
+
 ```
 
 ## Credits
