@@ -25,6 +25,7 @@ if ($row_count > "32") {
 	echo "'3.php', 80,";
 	echo "'4.php', 80,";
 	echo "'5.php', 80);";
+	$refresh = 400;
 }
 
 // if 24 rows or more
@@ -34,6 +35,7 @@ elseif ($row_count > "24") {
 	echo "'2.php', 80,";
 	echo "'3.php', 80,";
 	echo "'4.php', 80);";
+	$refresh = 320;
 }
 
 // if 16 rows or more
@@ -42,6 +44,7 @@ elseif ($row_count > "16") {
 	echo "'1.php', 80,";
 	echo "'2.php', 80,";
 	echo "'3.php', 80);";
+	$refresh = 240;
 }
 
 // if 8 rows or more
@@ -49,12 +52,14 @@ elseif ($row_count > "8") {
 	echo "var frames = Array(";
 	echo "'1.php', 80,";
 	echo "'2.php', 80);";
+	$refresh = 160;
 }
 
 // if 8 rows or less
 else {
 	echo "var frames = Array(";
 	echo "'1.php', 80);";
+	$refresh = 80;
 }
 
 ?>
@@ -84,6 +89,7 @@ window.onload = ChangeSrc;
 <title>Screen 1</title>
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link href='base.css' rel='stylesheet'> <!-- base CSS -->
+<meta http-equiv="refresh" content="<?php echo $refresh; ?>">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> <!-- callout dependency -->
 <style type="text/css">
 body {
