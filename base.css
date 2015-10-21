@@ -251,14 +251,14 @@ img {
 /* OVERLAYS */
 
 /* hiding the divs. important when less than 8 boxes of overlays per page. conditional in javascript */
-.div1,
-.div2,
-.div3,
-.div4,
-.div5,
-.div6,
-.div7,
-.div8 {
+#div1,
+#div2,
+#div3,
+#div4,
+#div5,
+#div6,
+#div7,
+#div8 {
     display: none;
 }
 
